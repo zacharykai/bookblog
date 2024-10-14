@@ -1,1 +1,157 @@
+/* GLOBAL */
 
+body {
+    background-color: #f6e6cf;
+    font-family: Palatino Linotype, serif, sans-serif;
+    color: #503832;
+    font-size: 20px;
+    line-height: 1.5em;
+    max-width: 900px;
+    margin: auto;
+    padding: 3px;
+}
+
+/* TYPOGRAPHY */
+
+h1, h2, h3 {
+    font-weight: 600;
+    line-height: 1em;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+a {
+    color: #503832;
+}
+
+code {
+    font-family: monospace, Courier New, sans-serif;
+    font-size: 18px;
+}
+
+/* LAYOUT */
+
+header {
+    margin-top: 10px;
+    font-size: 1.3em;
+    padding: 15px 20px;
+    border: 3px #503832 double;
+}
+
+main {
+    margin-top: 20px;
+    margin-bottom: 10px; 
+    padding: 5px 20px;
+    border: 3px #503832 double;
+}
+
+ul, ol {
+    padding-left: 35px;
+}
+
+footer {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    padding: 10px 20px;
+    border: 3px #503832 double;
+    font-size: 15px;
+    line-height: 1em;
+}
+
+img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+/* ENHANCEMENTS */
+
+#post-end {
+    padding-top: 20px; 
+    border-top: 3px #503832 double;
+}
+
+.essentials {
+    font-size: 0.75em;
+    line-height: 1em;
+}
+
+.essentials li {
+    line-height: 1.2em;
+}
+
+.postmeta {
+    margin-top: -10px;
+    padding-bottom: 10px;
+    font-size: 0.75em;
+    border-bottom: 3px #503832 double;
+}
+
+.quotes {
+    padding-left: 15px;
+    border-left: 3px #503832 double;
+    font-style: italic;
+}
+
+p:target:not(#top) {
+    background-color: #ffd6a5;
+}
+
+.image-trio {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    max-width: 100%;
+}
+
+.image-trio img {
+    width: calc(33.33% - 7px);
+    height: auto;
+    object-fit: cover; 
+}
+
+@media (max-width: 768px) {
+    .image-trio {
+        flex-direction: column;
+    }
+    .image-trio img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+.image-duo {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    max-width: 100%;
+}
+
+.image-duo img {
+    width: calc(50% - 7px);
+    height: auto;
+    object-fit: cover; 
+}
+
+@media (max-width: 768px) {
+    .image-duo {
+        flex-direction: column;
+    }
+    .image-duo img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
