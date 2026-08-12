@@ -1,0 +1,27 @@
+# Folders
+
+.vscode/
+.well-known/
+
+assets/
+jots/
+
+## Files
+
+400.html
+401.html
+403.html
+404.html
+500.html
+502.html
+503.html
+
+index.php
+sitemap.php
+random.php
+search.php
+
+minizine.php
+quarterzine.php
+
+zineappreciation.php

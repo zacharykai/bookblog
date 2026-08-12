@@ -1,0 +1,28 @@
+Sitemap: https://roadlessread.com/sitemap.xml
+
+User-agent: *
+Allow: /
+
+# -- Disallows
+
+# Files
+
+Disallow: /.gitignore
+Disallow: /400
+Disallow: /401
+Disallow: /403
+Disallow: /404
+Disallow: /500
+Disallow: /502
+Disallow: /503
+Disallow: /humans.txt
+Disallow: /LICENSE
+Disallow: /llm.txt
+Disallow: /random
+Disallow: /README.md
+Disallow: /soon
+Disallow: /successful
+
+# Folders
+
+Disallow: /assets/
