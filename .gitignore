@@ -2,9 +2,15 @@
 
 .vscode/
 .well-known/
+auth/
+micropub/
 
 assets/
 jots/
+
+bin/
+composer/
+vendor/
 
 ## Files
 
