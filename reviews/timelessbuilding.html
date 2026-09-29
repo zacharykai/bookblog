@@ -9,6 +9,7 @@
         <!-- Files -->
         <link rel="shortcut icon" href="/assets/icon.ico" type="image/x-icon">
         <link rel="stylesheet" href="/assets/style.css">
+        <link rel="preload" href="/assets/fraunces.woff2" as="font" type="font/woff2" crossorigin>
         <!-- Links -->
         <link rel="alternate" type="application/rss+xml" title="Road Less Read" href="/assets/rss.xml">
         <link rel="webmention" href="https://webmention.io/zacharykai.net/webmention" />
@@ -18,15 +19,26 @@
         <meta name="date" content="2026-03-31">
         <meta name="last-modified" content="2026-03-31">
         <meta name="description" content="Zachary Kai's review of The Timeless Way Of Building by Christopher Alexander.">
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Homepage", "item": "https://roadlessread.com/"},
+                {"@type": "ListItem", "position": 2, "name": "Reviews", "item": "https://roadlessread.com/reviews/"},
+                {"@type": "ListItem", "position": 3, "name": "The Timeless Way Of Building", "item": "https://roadlessread.com/reviews/timelessbuilding"}
+            ]
+        }
+        </script>
     </head>
-    <body>
+    <body id="page-top">
+
+        <!-- Skip Link -->
+        <a href="#top" class="skip-link">Skip to Content</a>
 
         <!-- SIDEBAR-->
 
                 <aside class="sidebar">
-
-            <!-- Skip/Return Link -->
-            <p><a href="#top" class="smalltext">Skip/Return To Top</a></p>
 
             <!-- Mobile Menu Toggle -->
             <input type="checkbox" id="menu-toggle" class="menu-toggle">
@@ -48,31 +60,27 @@
                 <nav>
                     <!-- Collections --->
                     <p><strong>Collections</strong></p>
-                    <p>
-                        <a href="/jots/">Jots</a> •
-                        <a href="/lists/">Lists</a> •
-                        <a href="/tools/">Tools</a>
-                    </p>
-                    <p>
-                        <a href="/notes/">Notes</a> •
-                        <a href="/reviews/">Reviews</a> •
-                        <a href="/views/">Views</a>
-                    </p>
+                    <ul class="nav-list">
+                        <li><a href="/jots/">Jots</a></li>
+                        <li><a href="/lists/">Lists</a></li>
+                        <li><a href="/tools/">Tools</a></li>
+                        <li><a href="/notes/">Notes</a></li>
+                        <li><a href="/reviews/">Reviews</a></li>
+                        <li><a href="/views/">Views</a></li>
+                    </ul>
                     <!-- Pages -->
                     <p class="pages"><strong>Pages</strong></p>
-                    <p>
-                        <a href="/about">About</a> •
-                        <a href="/links">Links</a> •
-                        <a href="/sitemap">Sitemap</a>
-                    </p>
+                    <ul class="nav-list">
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/links">Links</a></li>
+                        <li><a href="/sitemap">Sitemap</a></li>
+                    </ul>
                 </nav>
 
                 <!-- Subscribe link -->
                 <p class="highlight"><a href="/subscribe">Subscribe</a></p>
 
             </header>
-
-            <p class="smalltext">Est. 2019</p>
 
         </aside>
 
@@ -82,7 +90,7 @@
             <!-- Header -->
             <header>
                 <!-- Breadcrumbs -->
-                <p class="smalltext">You Are Here → <a href="/">Homepage</a> → <a href="/reviews/">Reviews</a> ↴</p>
+                <p class="smalltext">You Are Here → <a href="/">Homepage</a> → <a href="/reviews/">Reviews</a> → The Timeless Way Of Building ↴</p>
                 <!-- Heading -->
                 <h1 class="p-name">The Timeless Way Of Building by Christopher Alexander</h1>
                 <!-- Metadata -->
@@ -173,6 +181,9 @@
                         <a href="/contact">Contact</a> | <a href="/random">Random Page</a> |
                         <a href="/reviewing">Review Policy</a></p>
                 </section>
+
+                <!-- Site Meta -->
+                <p class="smalltext">Est. 2019 · <a href="#page-top">Return to Top ↑</a></p>
 
             </footer>
 

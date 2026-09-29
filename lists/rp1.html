@@ -9,6 +9,7 @@
         <!-- Files -->
         <link rel="shortcut icon" href="/assets/icon.ico" type="image/x-icon">
         <link rel="stylesheet" href="/assets/style.css">
+        <link rel="preload" href="/assets/fraunces.woff2" as="font" type="font/woff2" crossorigin>
         <!-- Links -->
         <link rel="alternate" type="application/rss+xml" title="Road Less Read" href="/assets/rss.xml">
         <link rel="webmention" href="https://webmention.io/zacharykai.net/webmention" />
@@ -18,15 +19,27 @@
         <meta name="date" content="2023-03-24">
         <meta name="last-modified" content="2023-12-29">
         <meta name="description" content="Need your next book? If you like Ready Player One and you've read it all, discover the best books like Ready Player One in this list of book recs.">
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Homepage", "item": "https://roadlessread.com/"},
+                {"@type": "ListItem", "position": 2, "name": "Lists", "item": "https://roadlessread.com/lists/"},
+                {"@type": "ListItem", "position": 3, "name": "Scifi", "item": "https://roadlessread.com/lists/#scifi"},
+                {"@type": "ListItem", "position": 4, "name": "Books Like Ready Player One", "item": "https://roadlessread.com/lists/rp1"}
+            ]
+        }
+        </script>
     </head>
-    <body>
+    <body id="page-top">
+
+        <!-- Skip Link -->
+        <a href="#top" class="skip-link">Skip to Content</a>
 
         <!-- SIDEBAR-->
 
                 <aside class="sidebar">
-
-            <!-- Skip/Return Link -->
-            <p><a href="#top" class="smalltext">Skip/Return To Top</a></p>
 
             <!-- Mobile Menu Toggle -->
             <input type="checkbox" id="menu-toggle" class="menu-toggle">
@@ -48,31 +61,27 @@
                 <nav>
                     <!-- Collections ---> 
                     <p><strong>Collections</strong></p>
-                    <p>
-                        <a href="/jots/">Jots</a> • 
-                        <a href="/lists/">Lists</a> • 
-                        <a href="/tools/">Tools</a>
-                    </p>
-                    <p>
-                        <a href="/notes/">Notes</a> • 
-                        <a href="/reviews/">Reviews</a> • 
-                        <a href="/views/">Views</a>
-                    </p>
+                    <ul class="nav-list">
+                        <li><a href="/jots/">Jots</a></li>
+                        <li><a href="/lists/">Lists</a></li>
+                        <li><a href="/tools/">Tools</a></li>
+                        <li><a href="/notes/">Notes</a></li>
+                        <li><a href="/reviews/">Reviews</a></li>
+                        <li><a href="/views/">Views</a></li>
+                    </ul>
                     <!-- Pages -->
                     <p class="pages"><strong>Pages</strong></p>
-                    <p>
-                        <a href="/about">About</a> • 
-                        <a href="/links">Links</a> • 
-                        <a href="/sitemap">Sitemap</a>
-                    </p>
+                    <ul class="nav-list">
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/links">Links</a></li>
+                        <li><a href="/sitemap">Sitemap</a></li>
+                    </ul>
                 </nav>
 
                 <!-- Subscribe link -->
                 <p class="highlight"><a href="/subscribe">Subscribe</a></p>
 
             </header>
-
-            <p class="smalltext">Est. 2019</p>
 
         </aside>
 
@@ -82,7 +91,7 @@
             <!-- Header -->
             <header>
                 <!-- Breadcrumbs -->
-                <p class="smalltext">You Are Here → <a href="/">Homepage</a> ↴</p>
+                <p class="smalltext">You Are Here → <a href="/">Homepage</a> → <a href="/lists/">Lists</a> → <a href="/lists/#scifi">Scifi</a> → Books Like Ready Player One ↴</p>
                 <!-- Disclaimer -->
                 <p class="smalltext"><a href="/about#disclaimer">Any purchases made through links may earn me a commission.</p>
                 <!-- Heading -->
@@ -399,6 +408,9 @@
                 <section>
                     <p>Est. 2019 by Zachary Kai | Have a wonderful (bookish) day.
                 </section>
+
+                <!-- Site Meta -->
+                <p class="smalltext">Est. 2019 · <a href="#page-top">Return to Top ↑</a></p>
 
             </footer>
 

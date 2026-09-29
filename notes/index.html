@@ -4,25 +4,36 @@
     <!-- HEAD -->
     <head>
         <meta charset="utf-8">
-        <title><!-- PAGE_TITLE --></title>
+        <title>Notes | Road Less Read</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="shortcut icon" href="/assets/icon.ico" type="image/x-icon">
         <link rel="stylesheet" href="/assets/style.css">
+        <link rel="preload" href="/assets/fraunces.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="alternate" type="application/rss+xml" title="Road Less Read" href="/assets/rss.xml">
         <link rel="webmention" href="https://webmention.io/zacharykai.net/webmention" />
-        <link rel="canonical" href="https://roadlessread.com/">
-        <meta name="date" content="20XX-XX-XX">
-        <meta name="last-modified" content="20XX-XX-XX">
-        <meta name="description" content="">
+        <link rel="canonical" href="https://roadlessread.com/notes/">
+        <meta name="date" content="2025-12-05">
+        <meta name="last-modified" content="2025-12-05">
+        <meta name="description" content="Notes: bookish stats, roundups, and resources. Book blogs, poetry blogs, writing blogs, Barnes & Noble data, book crafts, and more.">
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Homepage", "item": "https://roadlessread.com/"},
+                {"@type": "ListItem", "position": 2, "name": "Notes", "item": "https://roadlessread.com/notes/"}
+            ]
+        }
+        </script>
     </head>
-    <body>
+    <body id="page-top">
+
+        <!-- Skip Link -->
+        <a href="#top" class="skip-link">Skip to Content</a>
 
         <!-- SIDEBAR-->
 
                 <aside class="sidebar">
-
-            <!-- Skip/Return Link -->
-            <p><a href="#top" class="smalltext">Skip/Return To Top</a></p>
 
             <!-- Mobile Menu Toggle -->
             <input type="checkbox" id="menu-toggle" class="menu-toggle">
@@ -44,31 +55,27 @@
                 <nav>
                     <!-- Collections ---> 
                     <p><strong>Collections</strong></p>
-                    <p>
-                        <a href="/jots/">Jots</a> • 
-                        <a href="/lists/">Lists</a> • 
-                        <a href="/tools/">Tools</a>
-                    </p>
-                    <p>
-                        <a href="/notes/">Notes</a> • 
-                        <a href="/reviews/">Reviews</a> • 
-                        <a href="/views/">Views</a>
-                    </p>
+                    <ul class="nav-list">
+                        <li><a href="/jots/">Jots</a></li>
+                        <li><a href="/lists/">Lists</a></li>
+                        <li><a href="/tools/">Tools</a></li>
+                        <li><a href="/notes/">Notes</a></li>
+                        <li><a href="/reviews/">Reviews</a></li>
+                        <li><a href="/views/">Views</a></li>
+                    </ul>
                     <!-- Pages -->
                     <p class="pages"><strong>Pages</strong></p>
-                    <p>
-                        <a href="/about">About</a> • 
-                        <a href="/links">Links</a> • 
-                        <a href="/sitemap">Sitemap</a>
-                    </p>
+                    <ul class="nav-list">
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/links">Links</a></li>
+                        <li><a href="/sitemap">Sitemap</a></li>
+                    </ul>
                 </nav>
 
                 <!-- Subscribe link -->
                 <p class="highlight"><a href="/subscribe">Subscribe</a></p>
 
             </header>
-
-            <p class="smalltext">Est. 2019</p>
 
         </aside>
 
@@ -78,9 +85,9 @@
             <!-- Header -->
             <header>
                 <!-- Breadcrumbs -->
-                <p class="smalltext">You Are Here → <a href="/">Homepage</a> ↴</p>
+                <p class="smalltext">You Are Here → <a href="/">Homepage</a> → Notes ↴</p>
                 <!-- Heading -->
-                <h1 class="p-name">Lists</h1>
+                <h1 class="p-name">Notes</h1>
                 <!-- Metadata -->
                 <p class="smalltext">
                     <!-- Author --->
@@ -91,14 +98,14 @@
                     <strong>Updated</strong>: <time class="dt-updated" datetime="2025-12-05">5 Dec 2025</time>
                 </p>
                 <!-- Invisible Microformats -->
-                <p style="display: none;" class="p-summary">Here are all my book recommendation lists! Happy browsing.</p>
+                <p style="display: none;" class="p-summary">Notes: bookish stats, roundups, and resources. Happy browsing.</p>
             </header>
 
             <!-- Introduction -->
             <section class="e-content">
 
                 <section>
-                    <p id="top" class="dropcap">Here are all my book recommendation lists! Happy browsing.</p>
+                    <p id="top" class="dropcap">Notes: bookish stats, roundups, and resources. Happy browsing.</p>
                 </section>
 
             <section>
@@ -106,46 +113,41 @@
                 <details>
                     <summary><strong>Table Of Contents</strong></summary>
                     <ul>
-                        <li><a href="#fantasy">Fantasy</a></li>
-                        <li><a href="#scifi">Scifi</a></li>
-                        <li><a href="#ya">Young Adult</a></li>
+                        <li><a href="#blogs">Blog Roundups</a></li>
+                        <li><a href="#stats">Stats & Data</a></li>
+                        <li><a href="#other">Other Notes</a></li>
                     </ul>
                 </details>
             </section>
 
             <section>
-                <!-- Fantasy -->
-                <h2 id="fantasy">Fantasy</h2>
-                <p>Escape or adventure to another world.</p>
+                <!-- Blog Roundups -->
+                <h2 id="blogs">Blog Roundups</h2>
+                <p>Great bookish corners of the internet, worth a follow.</p>
                 <ul>
-                    <li><a href="/lists/sanderson">Authors Like Brandon Sanderson</a></li>
-                    <li><a href="/lists/pratchett">Authors Like Terry Pratchett</a></li>
-                    <li><a href="/lists/riordan">Authors Like Rick Riordan</a></li>
-                    <li><a href="/lists/mistborn">Books Like Mistborn</a></li>
-                    <li><a href="/lists/nimona">Books Like Nimona</a></li>
-                    <li><a href="/lists/percy">Books Like Percy Jackson</a></li>
+                    <li><a href="/notes/books">Top Book Blogs, Book Reviewers & Book Bloggers</a></li>
+                    <li><a href="/notes/poems">Top Poetry Blogs, Websites & Poetry Bloggers To Follow</a></li>
+                    <li><a href="/notes/writing">Top Writing Blogs, Writing Websites & Writing Bloggers</a></li>
                 </ul>
             </section>
 
             <section>
-                <!-- Scifi -->
-                <h2 id="scifi">Scifi</h2>
-                <p>Take a journey to the stars and beyond!</p>
+                <!-- Stats & Data -->
+                <h2 id="stats">Stats & Data</h2>
+                <p>Numbers and trends from the world of books.</p>
                 <ul>
-                    <li><a href="/lists/vonnegut">Authors Like Kurt Vonnegut</a></li>
-                    <li><a href="/lists/1984">Books Like 1984</a></li>
-                    <li><a href="/lists/divergent">Books Like Divergent</a></li>
-                    <li><a href="/lists/rp1">Books Like Ready Player One</a></li>
-                    <li><a href="/lists/expanse">Books Like The Expanse</a></li>
+                    <li><a href="/notes/bandn">Barnes And Noble Statistics: 78+ Trends, Insights, & Data</a></li>
                 </ul>
             </section>
 
             <section>
-                <!-- Young Adult -->
-                <h2 id="ya">Young Adult</h2>
-                <p>Contemporary or historical, aimed at a young (and young-at-heart) audience.</p>
+                <!-- Other Notes -->
+                <h2 id="other">Other Notes</h2>
+                <p>Everything else bookish.</p>
                 <ul>
-                    <li><a href="/lists/bookthief">Books Like The Book Thief</a></li>
+                    <li><a href="/notes/crafts">40+ Book Crafts, Books Décor, Bookish Craft DIY Ideas</a></li>
+                    <li><a href="/notes/wrap">How To Wrap A Book: 20+ Unique Ways</a></li>
+                    <li><a href="/notes/rssqs">The Persistent Signal: Call For Participation</a></li>
                 </ul>
             </section>
 
@@ -197,6 +199,9 @@
                         <a href="/contact">Contact</a> | <a href="/random">Random Page</a> |
                         <a href="/reviewing">Review Policy</a></p>
                 </section>
+
+                <!-- Site Meta -->
+                <p class="smalltext">Est. 2019 · <a href="#page-top">Return to Top ↑</a></p>
 
             </footer>
 
