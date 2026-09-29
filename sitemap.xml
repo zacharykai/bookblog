@@ -66,6 +66,15 @@
         <rlr:category>pages</rlr:category>
     </url>
 
+    <!-- Pages -->
+    <url>
+        <rlr:title>Pages</rlr:title>
+        <loc>https://roadlessread.com/pages</loc>
+        <lastmod>2026-08-16</lastmod>
+        <rlr:content>an index of Road Less Read's standalone pages.</rlr:content>
+        <rlr:category>pages</rlr:category>
+    </url>
+
     <!-- CATEGORIES -->
 
     <!-- Lists -->
